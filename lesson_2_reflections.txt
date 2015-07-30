@@ -19,3 +19,11 @@ logical change?
    to the staging area, then run "git commit" to commit those files to the
    repository as a single unit.
 
+What are some situations when branches would be helpful in keeping your
+history organized?  How would branches help?
+
+   For coding an experimental feature or testing an alternate algorithm,
+   branches would be helpful.  They allow you to avoid "contaminating" the
+   master branch with a possibly large set of changes which may ultimately
+   not be used in the final version.
+
