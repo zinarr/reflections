@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helps by isolating the displayed lines to only those lines which
+    were added, deleted, or updated.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would make you more efficient by virtue of the fact that locating
+    the source of a programming error would be quicker.  It would also 
+    allow you to see how your approach to a program evolved over time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing when to commit has the virtue of making each commit
+    reflect a logical change in the code, but leaves open the possibility
+    that you may forget to commit and thus lose a lot of work.
+
+    Auto-commits would ensure that you never go too long without committing,
+    but some of the commits may reflect only partially completed work.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It makes sense to support multi-file commits for version control systems
+    which primarily handle files containing code, since a single logical change
+    may span multiple files. For applications like Google Docs or Wikipedia,
+    this is not the case, so treating each file separately makes sense.
+    
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The "git log" command is useful for displaying a history of the commits
+    performed to a repository, while "git diff" allows you to determine
+    what's changed between any two commit IDs.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With the ability to revert to any previous version, there's no reason
+    to worry that a given change might break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Keeping track of code changes and web page changes
+

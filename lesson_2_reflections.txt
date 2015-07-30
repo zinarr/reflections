@@ -1,0 +1,14 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+    A .git subdirectory is created to hold repository metadata.  It is
+    required because the directory will not otherwise be recognized as a
+    git repository.
+
+How is the staging area different from the working directory and the
+repository?  What value do you think it offers?
+
+   The staging area holds files which have been added but not yet committed.
+   The staging area makes it easier to group files comprising a single logical
+   change into a single commit, without committing changes for an unrelated
+   task.
+
