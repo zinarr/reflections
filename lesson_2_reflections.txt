@@ -12,3 +12,10 @@ repository?  What value do you think it offers?
    change into a single commit, without committing changes for an unrelated
    task.
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+   Use "git add" to add only those file(s) which comprise the logical change
+   to the staging area, then run "git commit" to commit those files to the
+   repository as a single unit.
+
