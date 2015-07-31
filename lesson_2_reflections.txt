@@ -27,3 +27,8 @@ history organized?  How would branches help?
    master branch with a possibly large set of changes which may ultimately
    not be used in the final version.
 
+How do the diagrams help you visualize the branch structure?
+
+   The diagrams allow you to see the commit at which a branch was created,
+   and which commits are associated with which branches.
+
