@@ -39,3 +39,10 @@ in the diagram the way we do?
    by the two branches.  We represent it in the diagram as one branch merging
    into another (the current branch) because that's what is happening.
 
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+   Git's approach to handling merges seems ideal - it eliminates the need
+   for the user to handle trivial merges, but takes a conservative approach
+   when there is the possibility of ambiguity in the desired outcome.
+
