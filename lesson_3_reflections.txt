@@ -22,7 +22,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It makes working offline easier, and reduces the amount of data to be
+    transferred to/from GitHub when a push, pull, or fetch occurs.  You can
+    also see the differences between your own copy of a remote branch and
+    the GitHub repo's branch contents.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
